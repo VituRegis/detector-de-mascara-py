@@ -34,5 +34,5 @@ mostrar_imagem(imagem_copia)
 
 mostrar_imagem(imagem_pessoas_mascara)
 
-cv.imwrite('imagem_reconhece,mascara.jpg', imagem_copia)
+cv.imwrite('./imagens_faces/imagem_reconhece_mascara.jpg', imagem_copia)
 

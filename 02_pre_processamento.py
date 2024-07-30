@@ -41,4 +41,5 @@ for x,y,w,h in faces:
 
 cv.imshow('Teste', imagem_copia)
 mostrar_imagem(imagem_copia)
-cv.imwrite('imagem_com_faces.jpg', imagem_copia)
+cv.imwrite('./imagens_faces/imagem_com_faces.jpg', imagem_copia)
+
